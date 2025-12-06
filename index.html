@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Graphic Designer Portfolio Layout</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&amp;family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#AE996B",
+            "background-light": "#F5F3EF",
+            "background-dark": "#1A1A1A",
+            "text-light": "#1C1C1C",
+            "text-dark": "#E0E0E0",
+            "card-light": "#FFFFFF",
+            "card-dark": "#2C2C2C",
+            "border-light": "#EAE8E2",
+            "border-dark": "#383838"
+          },
+          fontFamily: {
+            display: ["Unbounded", "sans-serif"],
+            body: ["Work Sans", "sans-serif"]
+          },
+          borderRadius: {
+            DEFAULT: "12px",
+            lg: "16px",
+            xl: "20px",
+          },
+        },
+      },
+    };
+  </script>
+<style>.font-unbounded {
+    font-family: "Unbounded", sans-serif;
+    }
+.font-work-sans {
+    font-family: "Work Sans", sans-serif;
+    }
+.plastic-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAFwDimBsEw-ShoLmD2lm2RCGYPRIEc4GXcQMdrsNbsaazyL-WJvINjdcpTIJQxqbkJCyThzqkzhVu0eBidMFBaj4D6ldXE0Wv461ehiOt0A8Oma6zOY_PUtl4fyCF8ytAYC-U-o3DVMnfoejUUQkKhl1WMQu1GQQMisyXw1rp68TA3T6WjNBh-uKZh0ViumbZSnp6DP-LQEdU5g1x7JJvZZxvEJqwg8_bs1jFxMzYKCuwguY2gpiuSqj-9_sabRlY1BzIOHE6dVQVu), linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    background-blend-mode: overlay;
+    opacity: 0.6;
+    }
+.dark .plastic-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAFwDimBsEw-ShoLmD2lm2RCGYPRIEc4GXcQMdrsNbsaazyL-WJvINjdcpTIJQxqbkJCyThzqkzhVu0eBidMFBaj4D6ldXE0Wv461ehiOt0A8Oma6zOY_PUtl4fyCF8ytAYC-U-o3DVMnfoejUUQkKhl1WMQu1GQQMisyXw1rp68TA3T6WjNBh-uKZh0ViumbZSnp6DP-LQEdU5g1x7JJvZZxvEJqwg8_bs1jFxMzYKCuwguY2gpiuSqj-9_sabRlY1BzIOHE6dVQVu), linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+    opacity: 0.3;
+    }</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-body text-text-light dark:text-text-dark transition-colors duration-300">
+<div class="max-w-6xl mx-auto p-4 sm:p-8 lg:p-12">
+<main>
+<header class="bg-background-light dark:bg-card-dark rounded-xl p-8 relative overflow-hidden border border-border-light dark:border-border-dark">
+<div class="relative z-10">
+<div class="flex justify-between items-start">
+<div>
+<p class="font-unbounded text-sm font-semibold tracking-wider text-text-light/80 dark:text-text-dark/80">GRAPHIC</p>
+<p class="font-unbounded text-sm font-semibold tracking-wider text-text-light/80 dark:text-text-dark/80">Designer</p>
+</div>
+<p class="font-unbounded text-lg font-medium">2025</p>
+</div>
+<div class="mt-8 mb-16 text-center">
+<h1 class="font-unbounded font-extrabold text-[8vw] md:text-8xl lg:text-9xl leading-none tracking-tighter text-text-light dark:text-text-dark relative">
+<span class="absolute inset-0 flex items-center justify-center">
+<span class="block w-[32%] h-full bg-primary/30 dark:bg-primary/20 rounded-full blur-xl"></span>
+</span>
+<span class="relative">PORT</span>
+<span class="relative">FOLIO</span>
+</h1>
+</div>
+<div class="text-right">
+<p class="font-unbounded text-lg font-medium text-primary">DESIGN</p>
+<div class="flex items-center gap-2">
+<p class="font-body text-sm text-text-light/70 dark:text-text-dark/70">BRANDING</p>
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="md:col-span-1">
+<img alt="Profile picture of Bonita Rizkad, a woman wearing a light-colored hijab and striped shirt, looking thoughtfully to the side." class="w-full h-auto object-cover rounded-xl grayscale" loading="lazy" src="images/Screenshot 2025-12-06 064610.JPG"/>
+</div>
+<div class="md:col-span-2 space-y-8 text-sm">
+<div class="flex justify-between items-start">
+<div>
+<h2 class="font-unbounded text-2xl font-medium text-primary">Muhammad</h2>
+<p class="font-unbounded text-2xl font-medium">Ryan</p>
+</div>
+<a class="p-2 border border-text-light/20 dark:border-text-dark/20 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" href="#">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</a>
+</div>
+<p class="text-text-light/80 dark:text-text-dark/80 leading-relaxed max-w-xl">
+           Artikel ku
+
+Dari Deru Mesin ke FYP: Cerita Kecil Konten Besar”
+
+Buat sebagian orang, mobil itu cuma kendaraan. Tapi buat kreator otomotif, setiap mobil punya karakter. Tugasnya? Bikin penonton bisa ngerasain karakter itu walaupun cuma lewat layar 6 inci.
+
+Proses bikin video 10–30 detik?
+Halah, yang keliatan simpel justru paling ribet:
+🎬 Rekaman panas-panasan di parkiran
+🛠 Ngulang take karena bayangan kamera ganggu
+⌛ Editan sampai mata berair
+😅 Upload… lalu harap-harap cemas
+
+Tapi semua terbayar begitu muncul komentar:
+“Wah jadi ngerti fungsi ini!”
+“Fix langsung coba di mobil besok!”
+“Masukin keranjang KUNING dulu 👀👇”
+
+Saat itu juga muncul rasa bangga. Ternyata konten kecil bisa bantu banyak orang lebih peduli sama kendaraannya. Bukan cuma hobi — tapi jadi jembatan antara edukasi dan entertainment.
+
+Selama knalpot masih bersuara dan inovasi otomotif makin kenceng berkembang, inspirasi nggak bakal kehabisan bahan bakar.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-4">
+<div>
+<h3 class="font-unbounded font-medium text-text-light dark:text-text-dark mb-2">Experience</h3>
+<p class="text-text-light/80 dark:text-text-dark/80">2021 – Started Creating on TikTok
+Mulai berbagi konten otomotif dengan fokus pada edukasi ringan, tips perawatan, dan hal-hal seru seputar mobil di kehidupan sehari-hari.
+2022 – First Brand Collaboration
+Kesempatan pertama bekerja sama dengan brand otomotif ternama untuk campaign digital. Dari sini makin yakin bahwa konten otomotif bisa berdampak besar.
+2024 – Brand Ambassador, PRO7 Lighting
+Resmi menjadi Brand Ambassador untuk brand lampu PRO7. Sebuah milestone penting yang jadi pembuktian konsistensi, kualitas konten, dan koneksi kuat dengan komunitas otomotif.
+</p>
+</div>
+<div>
+<h3 class="font-unbounded font-medium text-text-light dark:text-text-dark mb-2">Social Media</h3>
+<p class="text-text-light/80 dark:text-text-dark/80">Tiktok: @ryanjir</p>
+<p class="text-text-light/60 dark:text-text-dark/80">Instagram: @ryanjir</p>
+</div>
+
+</div>
+</div>
+</section>
+<section class="mt-16">
+<h2 class="font-unbounded text-3xl font-bold mb-8 text-center">PROJECTS</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="lg:col-span-3">
+<img alt="A collage of various design projects including presentation slides and branding materials." class="w-full h-auto object-cover rounded-xl" loading="lazy" src="images/IMG_1620.JPG"/>
+</div>
+<div class="md:col-span-2">
+<img alt="Wedding invitation design for Angeline &amp; Mark." class="w-full h-auto object-cover rounded-xl" loading="lazy" src="images/IMG_1621.JPG"/>
+</div>
+<div>
+<img alt="A handwritten note on a pink card." class="w-full h-auto object-cover rounded-xl" loading="lazy" src="images/IMG_1627.JPG"/>
+</div>
+<div>
+<img alt="Product photography of cosmetic bottles." class="w-full h-auto object-cover rounded-xl" loading="lazy" src="images/IMG_1622.JPG"/>
+</div>
+<div class="md:col-span-2">
+<img alt="A hand holding a personalized thank you card." class="w-full h-auto object-cover rounded-xl" loading="lazy" src="images/IMG_1623.JPG"/>
+</div>
+</div>
+</section>
+</main>
+</div>
+
+</body></html>
